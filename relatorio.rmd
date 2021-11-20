@@ -1,0 +1,62 @@
+---
+title: "Trabalho 2"
+author:
+  - Guilherme Faccini (21180419)
+  - Eric Mondin (21100463)
+output:
+  pdf_document:
+    latex_engine: xelatex
+  html_document: default
+mainfont: Calibri
+sansfont: Calibri
+---
+
+## Introdução
+
+Este trabalho foi elaborado bláblábla
+
+
+
+## Funcionamento
+
+## Aplicação em casos selecionados
+
+Foram escolhidos 10 casos para aplicação do algoritmo. Abaixo os resultados:
+
+### caso04a
+
+Foram encontrados `nro de guerreiros` guerreiros onde **Fulano** foi o guerreiro da última geração que mais teve mais terras.
+
+Segue a árvore genealógica do **caso04a**:
+
+```{r}
+DiagrammeR::grViz('
+digraph boxes_and_circles {
+
+  node [shape = record, fontname = Helvetica]
+  A [label="{fulanoA|6543}"]; 
+  B [label="{fulanoB|6543}"]; 
+  C [label="{fulanoC|6543}"]; 
+  D [label="{fulanoD|6543}"]; 
+  E [label="{fulanoE|6543}"]; 
+  F [label="{fulanoF|6543}"]; 
+  G [label="{fulanoG|6543}", color="red"]; 
+  
+
+  # several "edge" statements
+  A->B 
+  A->C
+  A->D
+  C->E
+  D->F
+  D->G
+}
+')
+```
+
+
+
+
+
+
+

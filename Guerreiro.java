@@ -125,4 +125,32 @@ public class Guerreiro {
         }
         return res;
     }
+
+    private String dotNodo() {
+        String atributos = "[label=\"" + this.nome + "|" + this.totalTerras + "\"]";
+        return this.nome + " " + atributos + "\n";
+    }
+
+    public String geraDotNodos() {
+        String res = this.dotNodo();
+        if (this.temFilhos()) {
+            for (Guerreiro guerreiro : this.Filhos) {
+                res = res + guerreiro.geraDotNodos();
+            }
+        }
+        return res;
+    }
+
+    public String geraDotConexoes() {
+        String res = "";
+        if (this.temFilhos()) {
+            for (Guerreiro guerreiro : this.Filhos) {
+                res = res + this.nome + " -> " + guerreiro.nome + ";\n";
+            }
+            for (Guerreiro guerreiro : this.Filhos) {
+                res = res + guerreiro.geraDotConexoes();
+            }
+        }
+        return res;
+    }
 }

@@ -1,0 +1,35 @@
+digraph g { 
+graph [rankdir=LR]
+node [shape=record]
+Thorgestax [label="Thorgestax|103787"]
+Deldriralex [label="Deldriralex|25383"]
+Jocgnibardyx [label="Jocgnibardyx|24287"]
+Diorflimhikox [label="Diorflimhikox|9201"]
+Grutohiaux [label="Grutohiaux|9844"]
+Docmangax [label="Docmangax|8518"]
+Delscatorflex [label="Delscatorflex|10227"]
+Cristipix [label="Cristipix|9346"]
+Pacmonumicynax [label="Pacmonumicynax|6103"]
+Alteetoflex [label="Alteetoflex|26799"]
+Delrenmax [label="Delrenmax|26837"]
+Diormanclox [label="Diormanclox|11445"]
+Neppanpix [label="Neppanpix|8958"]
+Klodrimanrix [label="Klodrimanrix|12062"]
+Mirtpliblepkox [label="Mirtpliblepkox|9886"]
+Frinvinulamax [label="Frinvinulamax|23946"]
+Thorgestax -> Deldriralex;
+Thorgestax -> Jocgnibardyx;
+Thorgestax -> Alteetoflex;
+Thorgestax -> Delrenmax;
+Thorgestax -> Frinvinulamax;
+Jocgnibardyx -> Diorflimhikox;
+Jocgnibardyx -> Grutohiaux;
+Jocgnibardyx -> Docmangax;
+Jocgnibardyx -> Delscatorflex;
+Jocgnibardyx -> Cristipix;
+Jocgnibardyx -> Pacmonumicynax;
+Delrenmax -> Diormanclox;
+Delrenmax -> Neppanpix;
+Delrenmax -> Klodrimanrix;
+Delrenmax -> Mirtpliblepkox;
+}

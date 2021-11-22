@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Tribo {
-    private Guerreiro root;
+    public Guerreiro root;
 
     public Tribo() {
         Path path1 = Paths.get("exemplo.txt");
@@ -40,4 +40,20 @@ public class Tribo {
         }  
     }
 
+    /**
+     * @return String com os dados da Tribo
+     */
+    public String toString() {
+        return root.toString(true);
+    }
+
+    public String geraDot() {
+        String dot = "digraph g { \n" +
+            "graph [rankdir=LR]\n" +
+            "node [shape=record]\n" +
+            root.geraDotNodos() +
+            root.geraDotConexoes() +
+            "}";
+        return dot;
+    }
 }

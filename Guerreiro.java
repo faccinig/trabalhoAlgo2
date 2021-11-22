@@ -9,6 +9,8 @@ public class Guerreiro {
     private int terraConquistada;
     private int terraHerdada;
     private int totalTerras;
+    private int geracao;
+    private boolean maiorDonoTerrasUltimaGeracao;
     private Guerreiro pai;
     private LinkedList<Guerreiro> Filhos;
 
@@ -20,6 +22,8 @@ public class Guerreiro {
         this.totalTerras = 0;
         this.terraHerdada = 0;
         this.terraConquistada = terraConquistada;
+        this.geracao = 0;
+        this.maiorDonoTerrasUltimaGeracao = false;
         this.pai = null;
         this.Filhos = new LinkedList<>();
     }
@@ -30,6 +34,8 @@ public class Guerreiro {
         this.totalTerras = 0;
         this.terraHerdada = 0;
         this.terraConquistada = terraConquistada;
+        this.geracao = pai.geracao + 1;
+        this.maiorDonoTerrasUltimaGeracao = false;
         this.Filhos = new LinkedList<>();
     }
 
@@ -127,7 +133,12 @@ public class Guerreiro {
     }
 
     private String dotNodo() {
-        String atributos = "[label=\"" + this.nome + "|" + this.totalTerras + "\"]";
+        String atributos = "[label=\"" +
+            this.nome + "|" + this.totalTerras + "\"";
+        if (this.maiorDonoTerrasUltimaGeracao) {
+            atributos = atributos + " color=red";
+        }
+        atributos = atributos + "]";
         return this.nome + " " + atributos + "\n";
     }
 
@@ -152,5 +163,34 @@ public class Guerreiro {
             }
         }
         return res;
+    }
+
+    public void identifiqueMaiorDonoTerrasUltimaGeracao() {
+        Guerreiro guerreiro = this.qualMaiorDonoTerrasUltimaGeracao(null);
+        guerreiro.maiorDonoTerrasUltimaGeracao = true;
+    }
+    
+    private Guerreiro qualMaiorDonoTerrasUltimaGeracao(Guerreiro maiorDono) {
+        if (this.temFilhos()) {
+            for (Guerreiro guerreiro : this.Filhos) {
+                maiorDono = guerreiro.qualMaiorDonoTerrasUltimaGeracao(maiorDono);
+            }
+            return maiorDono;
+        }
+        if (maiorDono == null) {
+            return this;
+        }
+    
+        if (maiorDono.geracao > this.geracao) {
+            return maiorDono;
+        }
+        if (maiorDono.geracao < this.geracao) {
+            return this;
+        }
+        if (maiorDono.totalTerras > this.totalTerras) {
+            return maiorDono;
+        } else {
+            return this;
+        }
     }
 }

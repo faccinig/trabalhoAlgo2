@@ -34,6 +34,7 @@ public class Tribo {
             }
 
             root.transfereTerras();
+            root.identifiqueMaiorDonoTerrasUltimaGeracao();
 
         } catch (IOException e) {
             System.err.format("Erro na leitura do arquivo: ", e);

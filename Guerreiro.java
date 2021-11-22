@@ -30,7 +30,6 @@ public class Guerreiro {
         this.totalTerras = 0;
         this.terraHerdada = 0;
         this.terraConquistada = terraConquistada;
-        this.pai = null;
         this.Filhos = new LinkedList<>();
     }
 
@@ -52,11 +51,11 @@ public class Guerreiro {
         return !this.Filhos.isEmpty();
     }
     public Guerreiro findGuerreiro(String nomeProcurado) {
-        if (this.nome == nomeProcurado)
+        if (this.nome.equals(nomeProcurado))
             return this;
         Guerreiro res = null;
         if (this.temFilhos()) {
-            for (Guerreiro guerreiro : Filhos) {
+            for (Guerreiro guerreiro : this.Filhos) {
                 res = guerreiro.findGuerreiro(nomeProcurado);
                 if (res != null)
                     return res;
@@ -71,7 +70,7 @@ public class Guerreiro {
 
         if (this.temFilhos()) {
             int heranca = this.totalTerras / this.Filhos.size();
-            for (Guerreiro guerreiro : Filhos) {
+            for (Guerreiro guerreiro : this.Filhos) {
                 guerreiro.transfereTerras(heranca);
             }
         }

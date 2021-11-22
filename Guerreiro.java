@@ -80,4 +80,49 @@ public class Guerreiro {
         this.terraHerdada = heranca;
         this.transfereTerras();
     }
+
+    /**
+     * Retorna uma lista com todos os elementos da árvore.
+     * @return lista com os elementos da arvore.
+     */
+    public LinkedList<Guerreiro> asLinkedList() {
+        LinkedList<Guerreiro> list = new LinkedList<>();
+        this.appendOnLinkedList(list);
+        return list;
+    }
+
+    private LinkedList<Guerreiro> appendOnLinkedList(LinkedList<Guerreiro> list) {
+        list.add(this);
+        if (this.temFilhos()) {
+            for (Guerreiro guerreiro : this.Filhos) {
+                guerreiro.appendOnLinkedList(list);
+            }
+        }
+        return list;
+    }
+
+    /**
+     * @return String com os dados do Guerreiro
+     */
+    public String toString() {
+        String res = this.nome;
+        if (pai != null) {
+            res = res + " Filho de " + pai.nome;
+        }
+        res = res + ", conquistou " + this.terraConquistada;
+        return res;
+    }
+    
+    /**
+     * @return String com os dados do Guerreiro e filhos
+     */
+    public String toString(boolean incluirFilhos) {
+        String res = this.toString();
+        if (incluirFilhos && this.temFilhos()) {
+            for (Guerreiro guerreiro : this.Filhos) {
+                res = res + "\n" + guerreiro.toString(incluirFilhos);
+            }
+        }
+        return res;
+    }
 }

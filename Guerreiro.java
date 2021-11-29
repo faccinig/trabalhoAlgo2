@@ -50,6 +50,14 @@ public class Guerreiro {
         return true;
     }
 
+    public String getNome() {
+        return this.nome;
+    }
+
+    public int getTerras() {
+        return this.totalTerras;
+    }
+
     public void addFilho(Guerreiro filho) {
         this.Filhos.add(filho);
     }
@@ -136,10 +144,10 @@ public class Guerreiro {
         String atributos = "[label=\"" +
             this.nome + "|" + this.totalTerras + "\"";
         if (this.maiorDonoTerrasUltimaGeracao) {
-            atributos = atributos + " color=red";
+            atributos = atributos + " color=red style=bold";
         }
         atributos = atributos + "]";
-        return this.nome + " " + atributos + "\n";
+        return "  " + this.nome + " " + atributos + "\n";
     }
 
     public String geraDotNodos() {
@@ -156,7 +164,7 @@ public class Guerreiro {
         String res = "";
         if (this.temFilhos()) {
             for (Guerreiro guerreiro : this.Filhos) {
-                res = res + this.nome + " -> " + guerreiro.nome + ";\n";
+                res = res + "  " + this.nome + " -> " + guerreiro.nome + ";\n";
             }
             for (Guerreiro guerreiro : this.Filhos) {
                 res = res + guerreiro.geraDotConexoes();
@@ -192,5 +200,37 @@ public class Guerreiro {
         } else {
             return this;
         }
+    }
+
+    public int nroGuerreiros() {
+        return this.nroGuerreiros(0);
+    }
+
+    private int nroGuerreiros(int acc) {
+        acc = acc + 1;
+        if (this.temFilhos()) {
+            for (Guerreiro guerreiro : this.Filhos) {
+                acc = guerreiro.nroGuerreiros(acc);
+            }
+        }
+        return acc;
+    }
+
+    public Guerreiro maiorDonoTerras() {
+        if (this.maiorDonoTerrasUltimaGeracao) {
+            return this;
+        }
+
+        if (this.temFilhos()) {
+            Guerreiro aux = null;
+            for (Guerreiro guerreiro : this.Filhos) {
+                aux = guerreiro.maiorDonoTerras();
+                if (aux != null) {
+                    return aux;
+                }
+            }
+        }
+
+        return null;
     }
 }

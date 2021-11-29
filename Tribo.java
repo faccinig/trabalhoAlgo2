@@ -1,3 +1,4 @@
+import java.io.FileWriter;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -7,9 +8,12 @@ import java.nio.file.Paths;
 
 public class Tribo {
     public Guerreiro root;
+    public String pergaminho;
 
-    public Tribo() {
-        Path path1 = Paths.get("exemplo.txt");
+    public Tribo(String filePath) {        
+        Path path1 = Paths.get(filePath);
+        String fileName = path1.getFileName().toString();
+        this.pergaminho = fileName;
 
         try (BufferedReader reader = Files.newBufferedReader(path1, Charset.defaultCharset())) {
             String aux[];
@@ -51,10 +55,40 @@ public class Tribo {
     public String geraDot() {
         String dot = "digraph g { \n" +
             "graph [rankdir=LR]\n" +
-            "node [shape=record]\n" +
+            "node [shape=record fillcolor=lightgrey style=filled]\n" +
             root.geraDotNodos() +
             root.geraDotConexoes() +
             "}";
         return dot;
     }
+
+    public boolean writeDot() {
+        String filePath = "dot/" + this.pergaminho + ".Dot";
+        try {
+            FileWriter myWriter = new FileWriter(filePath);
+            myWriter.write(this.geraDot());
+            myWriter.close();
+            return true;
+        } catch (IOException e) {
+            System.out.println("Não foi possível escrever o arquivo:\n \"" + filePath + "\"");
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public int nroGuerreiros() {
+        return this.root.nroGuerreiros();
+    }
+
+    public String resumo() {
+        String res = "";
+        // res = "nroGuerreiros, maiorDonoTerrasUltimaGeracao, terrasMaiorDono
+        res = res + this.nroGuerreiros();
+        Guerreiro maiorDonoTerrasUltimaGeracao = this.root.maiorDonoTerras();
+        res = res + "," + maiorDonoTerrasUltimaGeracao.getNome();
+        res = res + "," + maiorDonoTerrasUltimaGeracao.getTerras();
+
+        return res;
+    }
+
 }

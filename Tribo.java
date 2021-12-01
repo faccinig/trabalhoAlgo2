@@ -62,17 +62,17 @@ public class Tribo {
         return dot;
     }
 
-    public boolean writeDot() {
-        String filePath = "dot/" + this.pergaminho + ".Dot";
+    public String writeDot() {
+        String filePath = "dot/" + this.pergaminho.split("\\.")[0] + ".Dot";
         try {
             FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(this.geraDot());
             myWriter.close();
-            return true;
+            return filePath;
         } catch (IOException e) {
             System.out.println("Não foi possível escrever o arquivo:\n \"" + filePath + "\"");
             e.printStackTrace();
-            return false;
+            return "";
         }
     }
 
@@ -81,12 +81,15 @@ public class Tribo {
     }
 
     public String resumo() {
-        String res = "";
+        String res = this.pergaminho;
         // res = "nroGuerreiros, maiorDonoTerrasUltimaGeracao, terrasMaiorDono
-        res = res + this.nroGuerreiros();
+        res = res + "," + this.nroGuerreiros();
         Guerreiro maiorDonoTerrasUltimaGeracao = this.root.maiorDonoTerras();
         res = res + "," + maiorDonoTerrasUltimaGeracao.getNome();
         res = res + "," + maiorDonoTerrasUltimaGeracao.getTerras();
+        res = res + "\n";
+
+        // res = res + "," + this.pergaminho.split("\\.")[0];
 
         return res;
     }

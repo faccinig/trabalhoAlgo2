@@ -1,0 +1,301 @@
+digraph g { 
+graph [rankdir=LR]
+node [shape=record fillcolor=lightgrey style=filled]
+  Pacgerdyx [label="Pacgerdyx|58825"]
+  Mirtpankix [label="Mirtpankix|11460"]
+  Scapvaltovax [label="Scapvaltovax|10228"]
+  Prepscatorgex [label="Prepscatorgex|4494"]
+  Stropgedridrisix [label="Stropgedridrisix|6966"]
+  Fringnivinganbax [label="Fringnivinganbax|6136"]
+  Specflimnax [label="Specflimnax|7127"]
+  Nepflimmonpax [label="Nepflimmonpax|5354"]
+  Tangabardyx [label="Tangabardyx|6495"]
+  Crongantorflex [label="Crongantorflex|4409"]
+  Alttortrifleinox [label="Alttortrifleinox|7384"]
+  Nocmongex [label="Nocmongex|7244"]
+  Morgcrimanbax [label="Morgcrimanbax|3935"]
+  Specmontrorix [label="Specmontrorix|6143"]
+  Diorverinax [label="Diorverinax|5778"]
+  Nabgangakox [label="Nabgangakox|4873"]
+  Atrimonbarflenix [label="Atrimonbarflenix|7289"]
+  Rimbarmocflex [label="Rimbarmocflex|5292"]
+  Furbleplax [label="Furbleplax|3506"]
+  Jocunnflegex [label="Jocunnflegex|4816"]
+  Krabloplimux [label="Krabloplimux|3605"]
+  Racveraarpax [label="Racveraarpax|3454"]
+  Grupanpax [label="Grupanpax|7268"]
+  Stropverdyx [label="Stropverdyx|6567"]
+  Frindenmicmicnox [label="Frindenmicmicnox|7229"]
+  Grugervinlax [label="Grugervinlax|5945"]
+  Fringerragax [label="Fringerragax|7985"]
+  Delcrabarstax [label="Delcrabarstax|5069"]
+  Nepmocinox [label="Nepmocinox|3958"]
+  Klotorenpix [label="Klotorenpix|5848"]
+  Kramonulagux [label="Kramonulagux|3737"]
+  Tripeeganvintrax [label="Tripeeganvintrax|8749"]
+  Ractrobarlex [label="Ractrobarlex|6228"]
+  Paculablopex [label="Paculablopex|3989"]
+  Furaarplimannox [label="Furaarplimannox|5783"]
+  Scaprenflimnox [label="Scaprenflimnox|5818"]
+  Stroptropex [label="Stroptropex|7187"]
+  Delmongerinox [label="Delmongerinox|4574"]
+  Tanvalaarpox [label="Tanvalaarpox|8697"]
+  Biromicblepdribax [label="Biromicblepdribax|10479"]
+  Altstivalcranox [label="Altstivalcranox|9898"]
+  Racbarcriblopex [label="Racbarcriblopex|5511"]
+  Atriscagernax [label="Atriscagernax|8785"]
+  Priumipox [label="Priumipox|7423"]
+  Cronpliunnvix [label="Cronpliunnvix|8538"]
+  Kloplimoncrinax [label="Kloplimoncrinax|5736"]
+  Prephigainax [label="Prephigainax|9051"]
+  Gorblotropix [label="Gorblotropix|12108"]
+  Kramicunninax [label="Kramicunninax|5405"]
+  Flercintex [label="Flercintex|5713"]
+  Altralox [label="Altralox|6399"]
+  Tanblepcravinlax [label="Tanblepcravinlax|3655"]
+  Rimmonaargeratox [label="Rimmonaargeratox|6757"]
+  Gortorvertrax [label="Gortorvertrax|8280"]
+  Beraarumitix [label="Beraarumitix|9077"]
+  Pacblofux [label="Pacblofux|8296"]
+  Kramoneefux [label="Kramoneefux|7877"]
+  Deltorscacynax [label="Deltorscacynax|4039"]
+  Tripcingatrax [label="Tripcingatrax|4284"]
+  Specaarpaninox [label="Specaarpaninox|6348"]
+  Docgangegakox [label="Docgangegakox|6435"]
+  Nocpanscacynax [label="Nocpanscacynax|6749"]
+  Tantroinax [label="Tantroinax|6415"]
+  Cronpandyx [label="Cronpandyx|2442"]
+  Atrimocpox [label="Atrimocpox|2823"]
+  Nepeegninax [label="Nepeegninax|7239"]
+  Altplipankox [label="Altplipankox|3635"]
+  Prepgeplitorlax [label="Prepgeplitorlax|5077"]
+  Gruraflenox [label="Gruraflenox|3362"]
+  Kraulaaargerinax [label="Kraulaaargerinax|3688"]
+  Paccininox [label="Paccininox|5034"]
+  Klostimanptix [label="Klostimanptix|3635"]
+  Stropscanox [label="Stropscanox|3208"]
+  Paculahiatox [label="Paculahiatox|6317"]
+  Racmocgancinvix [label="Racmocgancinvix|7392"]
+  Berdengacrifux [label="Berdengacrifux|9362"]
+  Morgvingux [label="Morgvingux|5928"]
+  Gorblepplicinmux [label="Gorblepplicinmux|7557"]
+  Retunnmonanix [label="Retunnmonanix|5297"]
+  Atrignigebax [label="Atrignigebax|3926"]
+  Klomoctex [label="Klomoctex|3385"]
+  Flerdenvix [label="Flerdenvix|5364"]
+  Klounnvercapclox [label="Klounnvercapclox|6344" color=red style=bold]
+  Tanmicbaraaratox [label="Tanmicbaraaratox|5128"]
+  Carcintrolox [label="Carcintrolox|4442"]
+  Grudricintox [label="Grudricintox|5622"]
+  Tripmanmocinax [label="Tripmanmocinax|6675"]
+  Kloflimaux [label="Kloflimaux|5770"]
+  Furcingux [label="Furcingux|6052"]
+  Nocbloflex [label="Nocbloflex|5172"]
+  Atridriflefleclox [label="Atridriflefleclox|8041"]
+  Flerblepdenbax [label="Flerblepdenbax|5900"]
+  Retgedyx [label="Retgedyx|4635"]
+  Nabaarplisix [label="Nabaarplisix|6896"]
+  Rimaartoinox [label="Rimaartoinox|7432"]
+  Cronpliravininox [label="Cronpliravininox|4365"]
+  Biromiccapblopox [label="Biromiccapblopox|5459"]
+  Delcriflimgax [label="Delcriflimgax|4003"]
+  Frinhikox [label="Frinhikox|3572"]
+  Prigeflimcynax [label="Prigeflimcynax|3087"]
+  Tripumivinclox [label="Tripumivinclox|6420"]
+  Biroragamocpax [label="Biroragamocpax|6140"]
+  Scaptotromax [label="Scaptotromax|5865"]
+  Gorgangex [label="Gorgangex|6571"]
+  Paculaptix [label="Paculaptix|5710"]
+  Specpangnitorvax [label="Specpangnitorvax|5844"]
+  Gruradyx [label="Gruradyx|6305"]
+  Mirtvincinmux [label="Mirtvincinmux|4610"]
+  Prepeeflex [label="Prepeeflex|6840"]
+  Tantromonbax [label="Tantromonbax|4380"]
+  Bercrapax [label="Bercrapax|5427"]
+  Raccrabarnox [label="Raccrabarnox|3533"]
+  Racunnaarpax [label="Racunnaarpax|6546"]
+  Cricrieerix [label="Cricrieerix|4605"]
+  Biroaarscabarlax [label="Biroaarscabarlax|2573"]
+  Pacmoncrastax [label="Pacmoncrastax|2596"]
+  Scapdenrendyx [label="Scapdenrendyx|5785"]
+  Altgegex [label="Altgegex|5903"]
+  Cribloeedricynax [label="Cribloeedricynax|7434"]
+  Furhibleptrostax [label="Furhibleptrostax|3476"]
+  Rimcragercynax [label="Rimcragercynax|5011"]
+  Biromicvintrax [label="Biromicvintrax|5234"]
+  Tanfleeegetex [label="Tanfleeegetex|3443"]
+  Morgcripax [label="Morgcripax|6929"]
+  Thorverbax [label="Thorverbax|8881"]
+  Furdenrengeflex [label="Furdenrengeflex|5022"]
+  Pacverstax [label="Pacverstax|6158"]
+  Nocblepmicptix [label="Nocblepmicptix|5204"]
+  Retscatristax [label="Retscatristax|4719"]
+  Cronblepfleaux [label="Cronblepfleaux|7047"]
+  Nepvalgeraux [label="Nepvalgeraux|10341"]
+  Criumicaprix [label="Criumicaprix|9636"]
+  Gordrigernax [label="Gordrigernax|8553"]
+  Nepplistigax [label="Nepplistigax|9397"]
+  Kragaflimnix [label="Kragaflimnix|6178"]
+  Neptorvinaardyx [label="Neptorvinaardyx|5445"]
+  Speccinatox [label="Speccinatox|5818"]
+  Morgstiaaraux [label="Morgstiaaraux|6255"]
+  Klohikix [label="Klohikix|7497"]
+  Thorflegniptix [label="Thorflegniptix|11001"]
+  Scapgeraarbax [label="Scapgeraarbax|7788"]
+  Thoreecriptix [label="Thoreecriptix|8253"]
+  Mirtravermonanix [label="Mirtravermonanix|6127"]
+  Nepcraflepax [label="Nepcraflepax|10499"]
+  Stropdenganlax [label="Stropdenganlax|7507"]
+  Thormocflex [label="Thormocflex|4771"]
+  Frintormicvax [label="Frintormicvax|6994"]
+  Carunncynax [label="Carunncynax|5324"]
+  Priflimdenlex [label="Priflimdenlex|9293"]
+  Pacgerdyx -> Mirtpankix;
+  Pacgerdyx -> Tanvalaarpox;
+  Pacgerdyx -> Biromicblepdribax;
+  Pacgerdyx -> Altstivalcranox;
+  Pacgerdyx -> Prephigainax;
+  Pacgerdyx -> Gorblotropix;
+  Pacgerdyx -> Nepvalgeraux;
+  Pacgerdyx -> Scapgeraarbax;
+  Pacgerdyx -> Thoreecriptix;
+  Pacgerdyx -> Stropdenganlax;
+  Pacgerdyx -> Priflimdenlex;
+  Mirtpankix -> Scapvaltovax;
+  Mirtpankix -> Tripeeganvintrax;
+  Scapvaltovax -> Prepscatorgex;
+  Scapvaltovax -> Frindenmicmicnox;
+  Scapvaltovax -> Grugervinlax;
+  Scapvaltovax -> Nepmocinox;
+  Scapvaltovax -> Klotorenpix;
+  Scapvaltovax -> Kramonulagux;
+  Prepscatorgex -> Stropgedridrisix;
+  Prepscatorgex -> Krabloplimux;
+  Prepscatorgex -> Racveraarpax;
+  Prepscatorgex -> Grupanpax;
+  Prepscatorgex -> Stropverdyx;
+  Stropgedridrisix -> Fringnivinganbax;
+  Stropgedridrisix -> Specflimnax;
+  Stropgedridrisix -> Morgcrimanbax;
+  Stropgedridrisix -> Furbleplax;
+  Stropgedridrisix -> Jocunnflegex;
+  Specflimnax -> Nepflimmonpax;
+  Specflimnax -> Tangabardyx;
+  Specflimnax -> Crongantorflex;
+  Specflimnax -> Alttortrifleinox;
+  Specflimnax -> Nocmongex;
+  Morgcrimanbax -> Specmontrorix;
+  Morgcrimanbax -> Diorverinax;
+  Morgcrimanbax -> Nabgangakox;
+  Morgcrimanbax -> Atrimonbarflenix;
+  Morgcrimanbax -> Rimbarmocflex;
+  Grugervinlax -> Fringerragax;
+  Grugervinlax -> Delcrabarstax;
+  Tripeeganvintrax -> Ractrobarlex;
+  Tripeeganvintrax -> Paculablopex;
+  Tripeeganvintrax -> Furaarplimannox;
+  Tripeeganvintrax -> Scaprenflimnox;
+  Tripeeganvintrax -> Stroptropex;
+  Tripeeganvintrax -> Delmongerinox;
+  Altstivalcranox -> Racbarcriblopex;
+  Altstivalcranox -> Atriscagernax;
+  Altstivalcranox -> Priumipox;
+  Altstivalcranox -> Cronpliunnvix;
+  Altstivalcranox -> Kloplimoncrinax;
+  Gorblotropix -> Kramicunninax;
+  Gorblotropix -> Flercintex;
+  Gorblotropix -> Nabaarplisix;
+  Gorblotropix -> Rimaartoinox;
+  Gorblotropix -> Cronpliravininox;
+  Gorblotropix -> Mirtvincinmux;
+  Gorblotropix -> Prepeeflex;
+  Gorblotropix -> Tantromonbax;
+  Gorblotropix -> Cronblepfleaux;
+  Flercintex -> Altralox;
+  Flercintex -> Tanblepcravinlax;
+  Flercintex -> Klostimanptix;
+  Flercintex -> Stropscanox;
+  Flercintex -> Paculahiatox;
+  Flercintex -> Retgedyx;
+  Tanblepcravinlax -> Rimmonaargeratox;
+  Tanblepcravinlax -> Specaarpaninox;
+  Tanblepcravinlax -> Docgangegakox;
+  Tanblepcravinlax -> Nocpanscacynax;
+  Tanblepcravinlax -> Tantroinax;
+  Tanblepcravinlax -> Cronpandyx;
+  Tanblepcravinlax -> Gruraflenox;
+  Tanblepcravinlax -> Kraulaaargerinax;
+  Tanblepcravinlax -> Paccininox;
+  Rimmonaargeratox -> Gortorvertrax;
+  Rimmonaargeratox -> Kramoneefux;
+  Rimmonaargeratox -> Deltorscacynax;
+  Rimmonaargeratox -> Tripcingatrax;
+  Gortorvertrax -> Beraarumitix;
+  Gortorvertrax -> Pacblofux;
+  Cronpandyx -> Atrimocpox;
+  Cronpandyx -> Nepeegninax;
+  Cronpandyx -> Altplipankox;
+  Cronpandyx -> Prepgeplitorlax;
+  Paculahiatox -> Racmocgancinvix;
+  Paculahiatox -> Berdengacrifux;
+  Berdengacrifux -> Morgvingux;
+  Berdengacrifux -> Gorblepplicinmux;
+  Berdengacrifux -> Furcingux;
+  Berdengacrifux -> Nocbloflex;
+  Berdengacrifux -> Atridriflefleclox;
+  Berdengacrifux -> Flerblepdenbax;
+  Gorblepplicinmux -> Retunnmonanix;
+  Gorblepplicinmux -> Tanmicbaraaratox;
+  Gorblepplicinmux -> Carcintrolox;
+  Gorblepplicinmux -> Grudricintox;
+  Gorblepplicinmux -> Tripmanmocinax;
+  Gorblepplicinmux -> Kloflimaux;
+  Retunnmonanix -> Atrignigebax;
+  Retunnmonanix -> Klomoctex;
+  Retunnmonanix -> Flerdenvix;
+  Retunnmonanix -> Klounnvercapclox;
+  Cronpliravininox -> Biromiccapblopox;
+  Cronpliravininox -> Gorgangex;
+  Cronpliravininox -> Paculaptix;
+  Cronpliravininox -> Specpangnitorvax;
+  Cronpliravininox -> Gruradyx;
+  Biromiccapblopox -> Delcriflimgax;
+  Biromiccapblopox -> Frinhikox;
+  Biromiccapblopox -> Prigeflimcynax;
+  Biromiccapblopox -> Tripumivinclox;
+  Biromiccapblopox -> Biroragamocpax;
+  Biromiccapblopox -> Scaptotromax;
+  Tantromonbax -> Bercrapax;
+  Tantromonbax -> Raccrabarnox;
+  Tantromonbax -> Racunnaarpax;
+  Tantromonbax -> Cricrieerix;
+  Tantromonbax -> Biroaarscabarlax;
+  Tantromonbax -> Rimcragercynax;
+  Tantromonbax -> Biromicvintrax;
+  Tantromonbax -> Tanfleeegetex;
+  Tantromonbax -> Morgcripax;
+  Tantromonbax -> Nocblepmicptix;
+  Tantromonbax -> Retscatristax;
+  Biroaarscabarlax -> Pacmoncrastax;
+  Biroaarscabarlax -> Scapdenrendyx;
+  Biroaarscabarlax -> Altgegex;
+  Biroaarscabarlax -> Cribloeedricynax;
+  Biroaarscabarlax -> Furhibleptrostax;
+  Morgcripax -> Thorverbax;
+  Morgcripax -> Furdenrengeflex;
+  Morgcripax -> Pacverstax;
+  Nepvalgeraux -> Criumicaprix;
+  Nepvalgeraux -> Thorflegniptix;
+  Criumicaprix -> Gordrigernax;
+  Criumicaprix -> Nepplistigax;
+  Criumicaprix -> Kragaflimnix;
+  Kragaflimnix -> Neptorvinaardyx;
+  Kragaflimnix -> Speccinatox;
+  Kragaflimnix -> Morgstiaaraux;
+  Kragaflimnix -> Klohikix;
+  Thoreecriptix -> Mirtravermonanix;
+  Thoreecriptix -> Nepcraflepax;
+  Stropdenganlax -> Thormocflex;
+  Stropdenganlax -> Frintormicvax;
+  Stropdenganlax -> Carunncynax;
+}

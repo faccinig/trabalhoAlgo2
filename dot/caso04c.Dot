@@ -1,0 +1,59 @@
+digraph g { 
+graph [rankdir=LR]
+node [shape=record fillcolor=lightgrey style=filled]
+  Mirtcinpangerfux [label="Mirtcinpangerfux|261515"]
+  Docdenbax [label="Docdenbax|54357"]
+  Biropligaatox [label="Biropligaatox|55868"]
+  Klotribarstikix [label="Klotribarstikix|58795"]
+  Atrigerstimax [label="Atrigerstimax|15838"]
+  Bercritorinax [label="Bercritorinax|8542"]
+  Primichinax [label="Primichinax|8880"]
+  Pacplitox [label="Pacplitox|8717"]
+  Atriflemocdriptix [label="Atriflemocdriptix|6638"]
+  Tanplicriptix [label="Tanplicriptix|7324"]
+  Birocraganpox [label="Birocraganpox|16626"]
+  Thorscablotorvax [label="Thorscablotorvax|12649"]
+  Crongapaninax [label="Crongapaninax|13167"]
+  Thorumiulastianix [label="Thorumiulastianix|13734"]
+  Gorgagertrax [label="Gorgagertrax|12442" color=red style=bold]
+  Speceevalgex [label="Speceevalgex|10317"]
+  Furvinmictix [label="Furvinmictix|11945"]
+  Carpliunnatox [label="Carpliunnatox|57330"]
+  Jocbartrigagax [label="Jocbartrigagax|10932"]
+  Preprenmax [label="Preprenmax|11292"]
+  Deltrimoncinlex [label="Deltrimoncinlex|9618"]
+  Morgtripox [label="Morgtripox|8765"]
+  Scapbartopix [label="Scapbartopix|11922"]
+  Furcraeelax [label="Furcraeelax|10897"]
+  Nabgerengannix [label="Nabgerengannix|10356"]
+  Delflimunnunnlex [label="Delflimunnunnlex|9682"]
+  Bertorrix [label="Bertorrix|12370"]
+  Gorrapax [label="Gorrapax|56803"]
+  Mirtcinpangerfux -> Docdenbax;
+  Mirtcinpangerfux -> Biropligaatox;
+  Mirtcinpangerfux -> Klotribarstikix;
+  Mirtcinpangerfux -> Carpliunnatox;
+  Mirtcinpangerfux -> Gorrapax;
+  Klotribarstikix -> Atrigerstimax;
+  Klotribarstikix -> Birocraganpox;
+  Klotribarstikix -> Thorscablotorvax;
+  Klotribarstikix -> Crongapaninax;
+  Klotribarstikix -> Thorumiulastianix;
+  Klotribarstikix -> Furvinmictix;
+  Atrigerstimax -> Bercritorinax;
+  Atrigerstimax -> Primichinax;
+  Atrigerstimax -> Pacplitox;
+  Atrigerstimax -> Atriflemocdriptix;
+  Atrigerstimax -> Tanplicriptix;
+  Thorumiulastianix -> Gorgagertrax;
+  Thorumiulastianix -> Speceevalgex;
+  Carpliunnatox -> Jocbartrigagax;
+  Carpliunnatox -> Preprenmax;
+  Carpliunnatox -> Deltrimoncinlex;
+  Carpliunnatox -> Morgtripox;
+  Carpliunnatox -> Scapbartopix;
+  Carpliunnatox -> Furcraeelax;
+  Carpliunnatox -> Nabgerengannix;
+  Carpliunnatox -> Delflimunnunnlex;
+  Carpliunnatox -> Bertorrix;
+}
